@@ -1,36 +1,24 @@
 # weatherman-clj
 
-A Clojure project/app to fetch and display weather info.
+A Clojure project/app to fetch and display weather info from openweathermap.
 
 ## Installation
 
-WIP.
+This is a standard Clojure project built with __lein__. You would need an API Key from [http://openweathermap.org/](http://openweathermap.org/) and put it in resources/app_config.edn
 
 ## Usage
 
-FIXME: explanation
+You can either do -
 
-    $ java -jar weatherman-clj-0.1.0-standalone.jar [args]
+    $ lein run "Berlin"
 
-## Options
+Or create the uberjar and run -
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+    $ java -jar weatherman-clj-0.1.0-standalone.jar "Berlin"
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015 Rocky Jaiswal
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
