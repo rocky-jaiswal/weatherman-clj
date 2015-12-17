@@ -1,5 +1,5 @@
 (defproject weatherman-clj "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
+  :description "WeatherMan in Clojure"
 
   :url "http://example.com/FIXME"
 
