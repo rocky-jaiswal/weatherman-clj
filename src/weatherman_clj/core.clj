@@ -11,7 +11,7 @@
                        (get match "country")
                        "\n")) matches))
 
-(defn work []
+(defn fetch-input-and-weather []
   (let [city-id (read-line)]
     (println "Fetching the weather ...")
     (println (parser/get-temperature city-id))))
@@ -23,4 +23,4 @@
   (print (pretty-print (city/find-matches (first args))))
   (print "Please type the city's id - ")
   (flush)
-  (work))
+  (fetch-input-and-weather))
